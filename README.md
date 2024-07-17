@@ -22,4 +22,4 @@ The provided Twitter archive lacked some useful information: retweet count and f
 Udacity also provided a link to image_predictions.tsv which I downloaded programatically using the Requests library.
 
 WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog, and it has over 4 million followers.
-Using Python and its libraries (pandas, numpy, matplotlib, etc), I gathered data from a variety of sources and in a variety of formats, assessed its quality and tidiness, then cleaned it. I also analyzed and visualized the cleaned data using Python [Vizualization Report](act_report.html)
+Using Python and its libraries (pandas, numpy, matplotlib, etc), I gathered data from a variety of sources and in a variety of formats, assessed its quality and tidiness, then cleaned it. I also analyzed and visualized the cleaned data using Python [Wrangle Report](wrangle_report.html)

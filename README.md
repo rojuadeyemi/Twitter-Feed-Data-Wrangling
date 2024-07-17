@@ -14,13 +14,12 @@ The tasks for this project were:
 - Storing, analyzing, and visualizing the wrangled data
 - Reporting on my data analyses and visualizations (act_report.pdf)
 
-## The Data
+## The Dataset
 WeRateDogs provided their Twitter archive (which included tweets through August 1, 2017) of basic tweet data (tweet ID, timestamp, text, etc.) for use with this project. The "enhanced" csv file (twitter_archive_enhanced.csv) also contains columns which were extracted programatically: the rating numerator, rating denominator, dog's name, and dog stages (doggo, floofer, pupper, and puppo). These columns needed to be assessed and cleaned as the extraction process wasn't perfect.
 
 The provided Twitter archive lacked some useful information: retweet count and favorite count. I used the tweet IDs to query the Twitter API for each tweet's JSON data using Python's Tweepy library and stored each tweet's entire set of JSON data in a file called tweet_json.txt. I then read the txt file line by line into a pandas DataFrame only including the desired variables; retweet count and favorite count.
 
 Udacity also provided a link to image_predictions.tsv which I downloaded programatically using the Requests library.
 
-The dataset that I wrangled and analyzed is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog, and it has over 4 million followers.
-Using Python and its libraries (pandas, numpy, matplotlib, etc), I gathered data from a variety of sources and in a variety of formats, assessed its quality and tidiness, then cleaned it. I also analyzed and visualized the cleaned data using Python.
-
+WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog, and it has over 4 million followers.
+Using Python and its libraries (pandas, numpy, matplotlib, etc), I gathered data from a variety of sources and in a variety of formats, assessed its quality and tidiness, then cleaned it. I also analyzed and visualized the cleaned data using Python [Vizualization Report](act_report.html)

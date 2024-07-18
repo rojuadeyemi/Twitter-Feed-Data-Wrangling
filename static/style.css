@@ -1,0 +1,40 @@
+body {
+    background-image: url('../static/LB_BG.webp');
+    background-size: cover; /* Adjusts image size to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+
+    font-family: Arial, sans-serif;
+    background-color: rgb(218, 97, 97);
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container div {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+}
+#header {
+    font: x-small;
+    color: honeydew;
+}
+.rounded-input {
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.rounded-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}

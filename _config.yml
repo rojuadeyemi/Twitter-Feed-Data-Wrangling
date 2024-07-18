@@ -1,0 +1,4 @@
+theme: jekyll-theme-leap-merlot
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
